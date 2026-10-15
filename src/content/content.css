@@ -1,0 +1,17 @@
+/* How highlights look on web pages. The browser injects this file into every
+   page the content script runs on (src/manifest.ts, content_scripts.css), so it
+   must only style ::highlight() names: never page elements.
+   The names come from PAINT in src/content/painter.ts. */
+::highlight(marginalia-yellow) { background-color: rgb(255 212 59 / 0.5); }
+::highlight(marginalia-green) { background-color: rgb(105 219 124 / 0.45); }
+::highlight(marginalia-blue) { background-color: rgb(116 192 252 / 0.5); }
+::highlight(marginalia-pink) { background-color: rgb(247 131 172 / 0.45); }
+/* Highlights with a note get a dotted underline. */
+::highlight(marginalia-note) {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 2px;
+  text-decoration-color: rgb(59 63 143 / 0.85);
+}
+/* A moment's flash when a highlight is chosen in the popup or side panel. */
+::highlight(marginalia-flash) { background-color: rgb(255 146 43 / 0.75); }

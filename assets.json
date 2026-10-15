@@ -1,0 +1,45 @@
+{
+  "$schema": "https://codeplate.io/schema/assets-0.json",
+  "assets": [
+    {
+      "path": "assets/icons/icon-16.png",
+      "kind": "image",
+      "width": 16,
+      "height": 16,
+      "use": "Toolbar button and favicon of the extension pages (manifest icons/action.default_icon 16)",
+      "license": "CodePlate-original",
+      "credit": "CodePlate",
+      "source": "scripts/make-icons.mjs"
+    },
+    {
+      "path": "assets/icons/icon-32.png",
+      "kind": "image",
+      "width": 32,
+      "height": 32,
+      "use": "Toolbar button on high-density screens and Windows (manifest 32)",
+      "license": "CodePlate-original",
+      "credit": "CodePlate",
+      "source": "scripts/make-icons.mjs"
+    },
+    {
+      "path": "assets/icons/icon-48.png",
+      "kind": "image",
+      "width": 48,
+      "height": 48,
+      "use": "The browser's extensions page (manifest 48)",
+      "license": "CodePlate-original",
+      "credit": "CodePlate",
+      "source": "scripts/make-icons.mjs"
+    },
+    {
+      "path": "assets/icons/icon-128.png",
+      "kind": "image",
+      "width": 128,
+      "height": 128,
+      "use": "Installation dialog and Chrome Web Store listing (manifest 128); also the source of the store icon",
+      "license": "CodePlate-original",
+      "credit": "CodePlate",
+      "source": "scripts/make-icons.mjs"
+    }
+  ]
+}
