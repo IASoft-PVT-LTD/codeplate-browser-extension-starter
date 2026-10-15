@@ -1,6 +1,6 @@
 # Browser Extension Starter
 
-> **Free CodePlate template, v1.0.3.** This repository mirrors the zip on [codeplate.io](https://codeplate.io/t/browser-extension-starter/).
+> **Free CodePlate template, v1.0.4.** This repository mirrors the zip on [codeplate.io](https://codeplate.io/t/browser-extension-starter/).
 > Press **Use this template** to start your own repository from it, or [download the zip](https://codeplate.io/t/browser-extension-starter/).
 > [All templates](https://codeplate.io/) · [Free License](https://codeplate.io/license/free/) · subscribers get it under the [Pro License](https://codeplate.io/license/pro/) with no credit.
 
@@ -48,6 +48,10 @@ npm run build:firefox  # dist/firefox/
 npm run listing        # docs/store-listing.md and docs/privacy-policy.md drafts
 npm run zip            # dist/<name>-<version>-chrome.zip for the store
 ```
+
+## How this template was made
+
+This template was written largely by AI coding agents (Claude, by Anthropic). IASoft reviewed and tested the work. The template's checks run on every change. To test it, a fresh agent was given a made-up project and a set of change requests to carry out with the template. The record of that run is at [codeplate.io/t/browser-extension-starter/eval/](https://codeplate.io/t/browser-extension-starter/eval/).
 
 ## License
 

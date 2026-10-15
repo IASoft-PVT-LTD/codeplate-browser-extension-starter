@@ -3,7 +3,7 @@
   "spec": 0,
   "id": "browser-extension-starter",
   "name": "Browser Extension Starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "kind": "app",
   "summary": "A Manifest V3 extension for Chrome and Edge (Firefox build too): popup, side panel, options, content script, typed storage and messages.",
   "tags": [
